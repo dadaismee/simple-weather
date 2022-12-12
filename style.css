@@ -1,0 +1,77 @@
+:root {
+  font-family: "Helvetica";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: linear-gradient(0.15turn, #0f87a6, #fff33c);
+  padding: 4vw;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  width: 55vw;
+}
+
+.app > h1 {
+  color: 'red';
+  font-weight: 600;
+  font-size: 6vw;
+  margin-bottom: 0;
+}
+
+.app > p {
+  text-align: left;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-bottom: -1vw;
+}
+
+.app__ui {
+  display: flex;
+  height: 7vw;
+  width: 100%;
+  margin: 2vw 0;
+}
+
+.app__input {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, .25);
+  border: none;
+  margin-right: 2vw;
+  text-indent: 2vw;
+}
+
+.app__input::placeholder {
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.app__button {
+  border-radius: 15px;
+  border: none;
+  font-size: 2vw;
+  background-color: rgba(255, 255, 255, .75);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 2vw;
+}
+
+.app__result {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+}
+
+.app__result-recs {
+  width: ;
+  text-align: right;
+  margin-left: 6vw;
+  color: black
+}
