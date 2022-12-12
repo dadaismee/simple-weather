@@ -6,7 +6,7 @@ function render(template, node) {
     node.innerHTML = template;
 };
 
-const btn = document.querySelector("button");
+const btn = document.querySelector("app__button");
 btn.addEventListener("click", event => {
   let city = document.querySelector("#app__input").value;
   let base_url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_Key}`
@@ -37,7 +37,7 @@ btn.addEventListener("click", event => {
         <div class="app__result" id='result'>
           <div class="weather">
             <p><b>${weather}</b></p>
-            <p><b>${temp}</b>°C</p>
+            <p><b>${temp}</b>ï¿½C</p>
           </div>
           <p class="app__result-recs">${recs}</p>
         </div>
